@@ -1,0 +1,44 @@
+@font-face {
+    font-display: swap;
+    font-family: "Inter";
+    src: local("Inter-Variable"),
+        url("./font/Inter-Variable.woff2") format("woff2 supports variations"),
+        url("./font/Inter-Variable.woff2") format("woff2-variations");
+    font-weight: 400 785;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    color: #17242a;
+}
+
+body{
+    background: #2b7a77;
+
+}
+
+.Wrapper {
+    padding: 20vh 0;
+    font-size: clamp(1.25rem, 1.0776rem + 0.8621vw, 1.5625rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-enter {
+    opacity: 0;
+  }
+  .item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  .item-exit {
+    opacity: 1;
+  }
+  .item-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+  }

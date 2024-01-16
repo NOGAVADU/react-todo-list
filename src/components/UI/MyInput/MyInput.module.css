@@ -1,0 +1,19 @@
+.MyInput {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid currentColor;
+    border-radius: 0.5rem;
+}
+
+.MyInput:focus{
+    outline: none;
+}
+
+.MyInput:focus-visible{
+    outline: 2px solid currentColor;
+    outline-offset: 0.5rem;
+}
+

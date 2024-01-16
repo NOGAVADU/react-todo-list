@@ -1,0 +1,29 @@
+.MyButton{
+    background: #3bba9c;
+    font-size: inherit;
+    font-family: inherit;
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px solid currentColor;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.MyButton:focus{
+    outline: none;
+}
+
+.MyButton:focus-visible{
+    outline: 2px solid currentColor;
+    outline-offset: 0.5rem;
+}
+
+.MyButton:hover{
+    background: #399e86;
+    transition: all 0.1s;
+}
+
+.MyButton:active{
+    background: #318571;
+}

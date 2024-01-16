@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+}
+
+.block {
+    position: relative;
+    background-color: #3bba9c;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.first{
+    animation: first 2s cubic-bezier(.51,.92,.24,1.15) alternate infinite;
+}
+
+
+
+@keyframes first {
+    from {
+       left: 0;
+    }
+    to {
+        left: calc(100% - 12rem);
+    }
+}
